@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "noEmit": true,
+    "paths": { "~/*": ["./src/*"] },
+    "baseUrl": "."
+  },
+  "include": ["src/**/*", "typings.d.ts"]
+}
